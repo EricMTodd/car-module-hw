@@ -1,7 +1,7 @@
 console.log("car.js is running...");
 
 
-module.exports = {
+const car = {
 	color: "Blue",
 	convertible: true,
 	speed: 0,
@@ -17,9 +17,12 @@ module.exports = {
 	}
 }
 
-module.exports.accelerate(20);
+car.accelerate(20);
 
-module.exports.decelerate(5);
+car.decelerate(5);
+
+module.exports = car;
+
 
 
 
